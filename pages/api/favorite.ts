@@ -1,11 +1,10 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import prismadb from '@/lib/prismadb';
-
 import { without } from "lodash";
 
+import prismadb from '@/lib/prismadb';
 import serverAuth from "@/lib/serverAuth";
 
-export async function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     try {
         if (req.method === 'POST') {
             const { currentUser } = await serverAuth(req);
