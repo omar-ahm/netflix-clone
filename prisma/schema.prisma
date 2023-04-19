@@ -19,9 +19,9 @@ model User {
   hashedPassword String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  favoriteIds String[] @db.ObjectId
   sessions Session[]
   accounts Account[]
+  favoriteIds String[] @db.ObjectId
 }
 
 model Account {
@@ -67,6 +67,5 @@ model Movie {
   videoUrl String
   thumbnailUrl String
   genre String
-  // rating Int
   duration String
 }
