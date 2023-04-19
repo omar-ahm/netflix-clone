@@ -28,7 +28,7 @@ const Billboard = () => {
         <div className='absolute top-[30%] md:top-[40%] ml-4 md:ml-16'>
             <p className='
                 text-white 
-                text-1xl 
+                text-2xl 
                 md:text-5xl 
                 h-full 
                 w-[50%] 
@@ -39,11 +39,11 @@ const Billboard = () => {
             </p>
             <p className='
                 text-white
-                text-[8px]
+                text-[12px]
                 md:text-lg
                 mt-3
                 md:mt-8
-                w-[90%]
+                w-[50%]
                 md:w-[80%]
                 lg:w-[50%]
                 drop-shadow-xl
@@ -61,10 +61,10 @@ const Billboard = () => {
                     text-white
                     bg-opacity-[30%]
                     rounded-md
-                    py-1 md:py2
+                    py-1.5 md:py3
                     px-2 md:px-4
                     w-auto
-                    text-xs lg:text-lg
+                    text-s lg:text-lg
                     font-semi-bold
                     flex
                     flex-row
