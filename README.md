@@ -15,17 +15,6 @@ Option 1
  - Enter the following details into the user login page 
  - Username: test@test.com
  - Password: 12341234
-
-Option 2
-  - click the github icon to login using your Github account details 
-   - Click the google icon to login using your google account 
-      (if this doesnt work try one of the other options)
-  
-Option 3
- - Click the "First time using netflix?Create an account" button 
- - Register a username, email and password
- - once registered you will automatically be logged in
- 
  
 ## Screenshot
 
