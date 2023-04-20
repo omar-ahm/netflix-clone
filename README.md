@@ -1,7 +1,7 @@
 # Netflix Clone site
 
 ## Description 
-This is a Netflix clone site that allows users to login using their Google and GitHub accounts. This site is designed to replicate the functionality and look of the official Netflix website.
+This is a Netflix clone site that allows users to register and login with created credentials and designed to replicate the functionality and look of the official Netflix website.
 
 ## Technologies used 
 Next JS, Typescript, React JS, MongoDB

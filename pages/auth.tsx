@@ -86,8 +86,8 @@ const Auth = () => {
                             </button>
 
                             <div className="flex flex-row items-center gap-4 mt-8 justify-center">
-                                {/* Google login button icon */}
-                                <div 
+                             
+                                {/* <div 
                                     onClick={() =>signIn('google', { callbackUrl: '/profiles' })} 
                                     className="
                                     w-10
@@ -102,9 +102,9 @@ const Auth = () => {
                                     transition
                                 ">
                                     <FcGoogle size={32}/>
-                                </div>
-                                {/* Github login button icon */}
-                                <div
+                                </div> */}
+                       
+                                {/* <div
                                     onClick={() =>signIn('github', { callbackUrl: '/profiles' })} 
                                     className="
                                     w-10
@@ -120,7 +120,7 @@ const Auth = () => {
                                 ">
                                     <FaGithub size={32}/>
 
-                                </div>
+                                </div> */}
 
 
                                 
