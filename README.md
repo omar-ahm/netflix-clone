@@ -7,7 +7,7 @@ This is a Netflix clone site that allows users to login using their Google and G
 Next JS, Typescript, React JS, MongoDB
 ## Getting Started
 
-Visit deployed site : https://net-clone-project-qn333w1p5-omar-ahm.vercel.app/auth
+Visit deployed site : https://net-clone-project-git-main-omar-ahm.vercel.app/auth
 
 ## Screenshot
 
